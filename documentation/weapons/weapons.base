@@ -1,0 +1,19 @@
+filters:
+  and:
+    - type == "weapon"
+    - '!file.inFolder("_templates")'
+views:
+  - type: table
+    name: All weapons
+    order:
+      - file.name
+      - status
+      - element
+      - damage
+      - projectileSpeed
+      - projectileDistance
+      - projectiles
+      - knockBack
+      - firingSpeed
+      - clipSize
+      - debuff

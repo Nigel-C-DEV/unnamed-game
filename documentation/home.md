@@ -1,19 +1,44 @@
 # Home
 
-Game is based on the SHIFT gamejam theme.
+> **Jam theme:** SHIFT
+> **Deadline:** TBD
+> **Engine:** TBD
 
-## Overview
-Game is a vampire survivor-like, where the player will face waves of opponents.
-If you've ever played League of Legends, the SHIFT mechanic is tied to what feels like "Aphelios" gun cycles. Where the player can 'SHIFT' between guns (2 at a time). When the player has consumed all the ammunition in one gun, the consumed gun, is replaced by a new one. 
-This will create a gun cycling strategy.
+## Pitch
+A vampire-survivors-like where the player fights waves of enemies holding two guns at a time and SHIFTs between them. When a gun runs out of ammo it's replaced by a new one, so the game becomes about planning your gun cycle against the waves you can see coming.
 
+## Project
+- [[scope]]: what's in the jam build, what's a stretch, what's cut
+- [[open-questions]]: unresolved design questions + log of decisions made
 
-## SHIFT mechanic
-The guns will have elements + different ways they fire. This will create advantages to certain enemies. Players will get an overview of the type of enemies about to come in the current wave and next wave potentially, to allow them to plan how they want to use their guns, which to recycle out or to save potentially.
+## Design
+- [[core-loop]]: the SHIFT mechanic, gun cycling, waves, win/lose
+- [[elements]]: the elements and which beats which
+- [[controls]]
+- [[ui]]
 
-## Concerns
-- One concern I can think of is, how easy it might be to recycle a gun by spam clicking on an empty area to keep misfiring and stalling the waves. Maybe we need to consider a timer to make stalling strategies not easy to overcome, or reward players for faster clears?
+## Content (data)
+- [[weapons]]: weapon property definitions; one note per weapon
+- [[debuffs]]: debuff property definitions; one note per debuff
+- [[enemies]]
+- [[player]]
 
-## About Properties
-throughout the documentation, properties will be defined.
-These properties should be mapped to json files to be consumed by the game, and should always reflect correctly. The home md files should describe what the properties mean.
+## Conventions
+
+### Properties are data
+Throughout the documentation, properties are defined. These map to JSON files consumed by the game and must always be correct.
+- The **folder overview note** (e.g. [[weapons]]) defines what each property *means*: type, units, description.
+- Each **item** (e.g. [[fire]]) is its own note and stores its *values* in the note's frontmatter (Obsidian's Properties panel). Frontmatter keys are the JSON keys: same spelling, same casing.
+- `weapons/weapons.base` shows every weapon as one table, so you can compare and tune values side by side.
+
+### Every note has
+- `type`: `design`, `weapon`, `debuff`, `enemy`, ...
+- `status`: `idea` → `designed` → `implemented` → `tuned`
+
+### Where things go
+- A new question or concern → [[open-questions]], not scattered through notes.
+- Once it's answered, move it to the decisions log there and update the relevant note.
+- New feature idea → [[scope]] first (Must / Should / Could), then its own design note if it survives.
+
+### New notes
+Use the templates in `_templates/` (Command palette → *Templates: Insert template*).
