@@ -5,9 +5,9 @@ element: fire
 damage: 10
 projectileSpeed: 1
 projectileDistance: 10
-projectiles:
+projectiles: 1
 knockBack: 0
-firingSpeed: 0.75
+fireCooldown: 0.75
 clipSize: 10
 debuff: "[[burn]]"
 ---

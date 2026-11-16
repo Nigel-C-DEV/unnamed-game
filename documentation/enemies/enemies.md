@@ -16,7 +16,7 @@ Enemies come in waves (see [[core-loop]]). Their element/resistances decide whic
 | health    | number | HP   | Damage it can take before dying. |
 | moveSpeed | number | TBD  | How fast it moves toward the player. |
 | damage    | number | HP   | Damage dealt to the player on contact. |
-| element   | string |      | Its element, for elemental advantages. |
+| element   | element |     | Its element, for elemental advantages. |
 
 ## All enemies
 -

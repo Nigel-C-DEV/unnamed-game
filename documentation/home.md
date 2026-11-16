@@ -18,6 +18,7 @@ A vampire-survivors-like where the player fights waves of enemies holding two gu
 - [[ui]]
 
 ## Content (data)
+- [[data-mapping]]: how these classes map to JSON and Tiled
 - [[weapons]]: weapon property definitions; one note per weapon
 - [[debuffs]]: debuff property definitions; one note per debuff
 - [[enemies]]
@@ -30,6 +31,7 @@ Throughout the documentation, properties are defined. These map to JSON files co
 - The **folder overview note** (e.g. [[weapons]]) defines what each property *means*: type, units, description.
 - Each **item** (e.g. [[fire]]) is its own note and stores its *values* in the note's frontmatter (Obsidian's Properties panel). Frontmatter keys are the JSON keys: same spelling, same casing.
 - `weapons/weapons.base` shows every weapon as one table, so you can compare and tune values side by side.
+- These classes and objects map to the game's JSON data and, later, to Tiled custom types. See [[data-mapping]] for the rules.
 
 ### Every note has
 - `type`: `design`, `weapon`, `debuff`, `enemy`, ...

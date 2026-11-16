@@ -7,7 +7,7 @@ projectileSpeed:
 projectileDistance:
 projectiles:
 knockBack:
-firingSpeed:
+fireCooldown:
 clipSize:
 debuff:
 ---

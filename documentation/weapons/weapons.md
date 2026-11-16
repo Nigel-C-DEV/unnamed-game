@@ -11,13 +11,13 @@ Weapons are point and click. The player faces the mouse. Left click fires, shoot
 ## Properties
 | property           | type       | unit    | meaning |
 | ------------------ | ---------- | ------- | ------- |
-| element            | string     |         | The weapon's element (see [[elements]]). |
+| element            | element    |         | The weapon's element (see [[elements]]). |
 | projectileSpeed    | number     | TBD     | The speed at which the projectile travels. The projectile inherits this as its speed. |
 | projectileDistance | number     | TBD     | The distance the projectile can travel before it disappears. The projectile inherits this as its max distance. |
 | projectiles        | int        | count   | The number of projectiles the weapon produces per shot. |
 | knockBack          | number     | TBD     | The distance an enemy moves after being hit, along the projectile's travel vector. |
 | damage             | number     | HP      | The damage the projectile does if it hits an enemy. |
-| firingSpeed        | number     | seconds | The delay between shots. After firing, the player can't shoot again until this timer completes. |
+| fireCooldown       | number     | seconds | The delay between shots. After firing, the player can't shoot again until this timer completes. |
 | clipSize           | int        | shots   | The number of shots before the weapon is depleted (and replaced). |
 | debuff             | link       |         | The debuff applied to an enemy hit by a projectile (see [[debuffs]]). |
 

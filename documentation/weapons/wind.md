@@ -2,13 +2,13 @@
 type: weapon
 status: idea
 element: wind
-damage:
-projectileSpeed:
-projectileDistance:
-projectiles:
-knockBack:
-firingSpeed:
-clipSize:
+damage: 10
+projectileSpeed: 1
+projectileDistance: 18
+projectiles: 1
+knockBack: 1
+fireCooldown: 0.75
+clipSize: 11
 debuff:
 ---
 # Wind
