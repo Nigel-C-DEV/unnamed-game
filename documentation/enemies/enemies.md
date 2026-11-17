@@ -19,4 +19,4 @@ Enemies come in waves (see [[core-loop]]). Their element/resistances decide whic
 | element   | element |     | Its element, for elemental advantages. |
 
 ## All enemies
--
+- [[zombie]]: the basic enemy
