@@ -3,7 +3,7 @@ type: weapon
 status: idea
 element: wind
 damage: 10
-projectileSpeed: 1
+projectileSpeed: 15
 projectileDistance: 18
 projectiles: 1
 knockBack: 1

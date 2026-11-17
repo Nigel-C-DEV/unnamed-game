@@ -1,10 +1,10 @@
 ---
 type: enemy
-status: idea
+status: designed
 element:
 health: 20
-moveSpeed:
-damage:
+moveSpeed: 2.5
+damage: 10
 ---
 # Zombie
 The basic enemy.

@@ -1,2 +1,6 @@
 # Obsidian per-machine state
 **/.obsidian/workspace*.json
+
+# Node
+node_modules/
+dist/

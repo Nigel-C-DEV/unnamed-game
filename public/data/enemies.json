@@ -1,0 +1,8 @@
+{
+  "zombie": {
+    "element": null,
+    "health": 20,
+    "moveSpeed": 2.5,
+    "damage": 10
+  }
+}

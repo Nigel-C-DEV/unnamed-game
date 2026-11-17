@@ -1,0 +1,8 @@
+{
+  "player": {
+    "health": 100,
+    "moveSpeed": 6,
+    "hitInvulnerability": 0.5,
+    "startingWeapons": ["fire", "ice", "wind", "ground", "electric"]
+  }
+}

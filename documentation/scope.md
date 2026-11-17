@@ -4,17 +4,17 @@ Jams are won by finishing. If something threatens the deadline and isn't in **Mu
 > Draft: a suggested starting point, reorder freely.
 
 ## Must (minimum playable jam build)
-- [ ] Player movement (WASD), aim at mouse, left-click fire
-- [ ] Two gun slots + Shift to swap
-- [ ] Empty gun is replaced by a new one
-- [ ] 2 elements with different debuffs
-- [ ] 2–3 enemy types spawning in waves
-- [ ] Current-wave preview
-- [ ] Lose condition + restart
+- [x] Player movement (WASD), aim at mouse, left-click fire
+- [x] Two gun slots + Shift to swap
+- [x] Empty gun is replaced by a new one
+- [x] 2 elements with different debuffs (fire/[[burn]], ice/[[chill]])
+- [ ] 2–3 enemy types spawning in waves (waves work; only [[zombie]] so far)
+- [x] Current-wave preview
+- [x] Lose condition + restart
 
 ## Should
 - [ ] All 5 elements
-- [ ] Next-wave preview
+- [x] Next-wave preview
 - [ ] Elemental advantages vs. enemies
 
 ## Could

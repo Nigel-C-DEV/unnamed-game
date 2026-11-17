@@ -2,7 +2,7 @@
 
 > **Jam theme:** SHIFT
 > **Deadline:** TBD
-> **Engine:** TBD
+> **Engine:** Phaser 4 + Vite (JavaScript), maps in Tiled. See the repo `README.md` to run it.
 
 ## Pitch
 A vampire-survivors-like where the player fights waves of enemies holding two guns at a time and SHIFTs between them. When a gun runs out of ammo it's replaced by a new one, so the game becomes about planning your gun cycle against the waves you can see coming.
@@ -22,6 +22,7 @@ A vampire-survivors-like where the player fights waves of enemies holding two gu
 - [[weapons]]: weapon property definitions; one note per weapon
 - [[debuffs]]: debuff property definitions; one note per debuff
 - [[enemies]]
+- [[waves]]
 - [[player]]
 
 ## Conventions

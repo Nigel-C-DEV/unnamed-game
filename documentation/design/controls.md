@@ -13,5 +13,8 @@ This page defines the controls to play the game.
 
 ## Mouse
 - Mouse pointer moves the aim (the player faces the mouse).
-- Left click fires the weapon.
+- Left click fires the weapon. Hold to keep firing.
 - Right click uses an ability (TBD, see [[open-questions]]).
+
+## Other
+- R or click: play again on the game over / win screen.

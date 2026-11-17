@@ -1,0 +1,200 @@
+{
+    "automappingRulesFile": "",
+    "commands": [],
+    "compatibilityVersion": 1100,
+    "extensionsPath": "extensions",
+    "folders": [
+        "../public/maps"
+    ],
+    "properties": [],
+    "propertyTypes": [
+        {
+            "id": 1,
+            "name": "element",
+            "type": "enum",
+            "storageType": "string",
+            "values": [
+                "fire",
+                "ice",
+                "wind",
+                "ground",
+                "electric"
+            ],
+            "valuesAsFlags": false
+        },
+        {
+            "id": 2,
+            "name": "weapon",
+            "type": "class",
+            "color": "#ffe0a040",
+            "drawFill": true,
+            "useAs": [
+                "property",
+                "map",
+                "layer",
+                "object",
+                "tile",
+                "tileset",
+                "wangcolor",
+                "wangset",
+                "project"
+            ],
+            "members": [
+                {
+                    "name": "id",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "element",
+                    "propertyType": "element",
+                    "type": "string",
+                    "value": "fire"
+                },
+                {
+                    "name": "damage",
+                    "type": "float",
+                    "value": 10
+                },
+                {
+                    "name": "projectileSpeed",
+                    "type": "float",
+                    "value": 15
+                },
+                {
+                    "name": "projectileDistance",
+                    "type": "float",
+                    "value": 10
+                },
+                {
+                    "name": "projectiles",
+                    "type": "int",
+                    "value": 1
+                },
+                {
+                    "name": "knockBack",
+                    "type": "float",
+                    "value": 0
+                },
+                {
+                    "name": "fireCooldown",
+                    "type": "float",
+                    "value": 0.75
+                },
+                {
+                    "name": "clipSize",
+                    "type": "int",
+                    "value": 10
+                },
+                {
+                    "name": "debuff",
+                    "type": "string",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "enemy",
+            "type": "class",
+            "color": "#ff6abe30",
+            "drawFill": true,
+            "useAs": [
+                "property",
+                "map",
+                "layer",
+                "object",
+                "tile",
+                "tileset",
+                "wangcolor",
+                "wangset",
+                "project"
+            ],
+            "members": [
+                {
+                    "name": "id",
+                    "type": "string",
+                    "value": "zombie"
+                },
+                {
+                    "name": "element",
+                    "propertyType": "element",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "name": "health",
+                    "type": "float",
+                    "value": 20
+                },
+                {
+                    "name": "moveSpeed",
+                    "type": "float",
+                    "value": 2.5
+                },
+                {
+                    "name": "damage",
+                    "type": "float",
+                    "value": 10
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "player",
+            "type": "class",
+            "color": "#ff5fcde4",
+            "drawFill": true,
+            "useAs": [
+                "property",
+                "map",
+                "layer",
+                "object",
+                "tile",
+                "tileset",
+                "wangcolor",
+                "wangset",
+                "project"
+            ],
+            "members": [
+                {
+                    "name": "health",
+                    "type": "float",
+                    "value": 100
+                },
+                {
+                    "name": "moveSpeed",
+                    "type": "float",
+                    "value": 6
+                },
+                {
+                    "name": "hitInvulnerability",
+                    "type": "float",
+                    "value": 0.5
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "playerSpawn",
+            "type": "class",
+            "color": "#ff5fcde4",
+            "drawFill": true,
+            "useAs": [
+                "object"
+            ],
+            "members": []
+        },
+        {
+            "id": 6,
+            "name": "enemySpawn",
+            "type": "class",
+            "color": "#ffd04648",
+            "drawFill": true,
+            "useAs": [
+                "object"
+            ],
+            "members": []
+        }
+    ]
+}

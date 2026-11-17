@@ -1,0 +1,7 @@
+{
+  "wave1": { "enemies": { "zombie": 5 }, "spawnInterval": 1, "delayBefore": 2 },
+  "wave2": { "enemies": { "zombie": 8 }, "spawnInterval": 0.8, "delayBefore": 3 },
+  "wave3": { "enemies": { "zombie": 12 }, "spawnInterval": 0.7, "delayBefore": 3 },
+  "wave4": { "enemies": { "zombie": 16 }, "spawnInterval": 0.6, "delayBefore": 3 },
+  "wave5": { "enemies": { "zombie": 22 }, "spawnInterval": 0.5, "delayBefore": 3 }
+}

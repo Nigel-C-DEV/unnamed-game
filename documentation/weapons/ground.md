@@ -3,7 +3,7 @@ type: weapon
 status: idea
 element: ground
 damage: 10
-projectileSpeed: 1
+projectileSpeed: 15
 projectileDistance: 10
 projectiles: 1
 knockBack: 0

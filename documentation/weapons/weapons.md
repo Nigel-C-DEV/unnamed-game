@@ -3,21 +3,21 @@ type: design
 status: designed
 ---
 # Weapons
-How weapons work, and what each weapon property means. Each weapon is its own note in this folder with its values in frontmatter. Open `weapons.base` to see them all in one table.
+How weapons work, and what each weapon property means. Each weapon is its own note in this folder with its values in frontmatter. Open `weapons.base` to see them all in one table. Game data: `public/data/weapons.json`.
 
 ## Overview
-Weapons are point and click. The player faces the mouse. Left click fires, shooting a projectile. Depending on the weapon, the type of projectile and other properties vary. The player holds two weapons at a time (see [[core-loop]]).
+Weapons are point and click. The player faces the mouse. Left click fires, shooting a projectile; hold it to keep firing. Depending on the weapon, the type of projectile and other properties vary. The player holds two weapons at a time (see [[core-loop]]).
 
 ## Properties
 | property           | type       | unit    | meaning |
 | ------------------ | ---------- | ------- | ------- |
 | element            | element    |         | The weapon's element (see [[elements]]). |
-| projectileSpeed    | number     | TBD     | The speed at which the projectile travels. The projectile inherits this as its speed. |
-| projectileDistance | number     | TBD     | The distance the projectile can travel before it disappears. The projectile inherits this as its max distance. |
-| projectiles        | int        | count   | The number of projectiles the weapon produces per shot. |
-| knockBack          | number     | TBD     | The distance an enemy moves after being hit, along the projectile's travel vector. |
+| projectileSpeed    | number     | tiles/s | The speed at which the projectile travels. The projectile inherits this as its speed. |
+| projectileDistance | number     | tiles   | The distance the projectile can travel before it disappears. The projectile inherits this as its max distance. |
+| projectiles        | int        | count   | The number of projectiles the weapon produces per shot. More than 1 fans out over a fixed 20° for now (see [[open-questions]]). |
+| knockBack          | number     | tiles   | The distance an enemy moves after being hit, along the projectile's travel vector. |
 | damage             | number     | HP      | The damage the projectile does if it hits an enemy. |
-| fireCooldown       | number     | seconds | The delay between shots. After firing, the player can't shoot again until this timer completes. |
+| fireCooldown       | number     | seconds | The delay between shots. After firing, the player can't shoot again until this timer completes. The cooldown belongs to the player, so SHIFTing doesn't skip it. |
 | clipSize           | int        | shots   | The number of shots before the weapon is depleted (and replaced). |
 | debuff             | link       |         | The debuff applied to an enemy hit by a projectile (see [[debuffs]]). |
 
@@ -38,4 +38,4 @@ This interaction will default, select the old second to become the first, and th
 
 
 Starting Weapons Queue
-Fire, Ice, Wind, Ground, Electric.
+Fire, Ice, Wind, Ground, Electric. (Stored as `startingWeapons` on the [[player]].)

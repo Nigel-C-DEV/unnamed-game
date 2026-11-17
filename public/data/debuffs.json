@@ -1,0 +1,13 @@
+{
+  "burn": {
+    "element": "fire",
+    "burnDamage": 2,
+    "burnTimer": 5,
+    "tickRate": 0.5
+  },
+  "chill": {
+    "element": "ice",
+    "chillSlow": 0.4,
+    "chillTimer": 2
+  }
+}

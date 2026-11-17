@@ -1,0 +1,57 @@
+{
+  "fire": {
+    "element": "fire",
+    "damage": 10,
+    "projectileSpeed": 15,
+    "projectileDistance": 10,
+    "projectiles": 1,
+    "knockBack": 0,
+    "fireCooldown": 0.75,
+    "clipSize": 10,
+    "debuff": "burn"
+  },
+  "ice": {
+    "element": "ice",
+    "damage": 10,
+    "projectileSpeed": 15,
+    "projectileDistance": 10,
+    "projectiles": 1,
+    "knockBack": 0,
+    "fireCooldown": 0.75,
+    "clipSize": 10,
+    "debuff": "chill"
+  },
+  "wind": {
+    "element": "wind",
+    "damage": 10,
+    "projectileSpeed": 15,
+    "projectileDistance": 18,
+    "projectiles": 1,
+    "knockBack": 1,
+    "fireCooldown": 0.75,
+    "clipSize": 11,
+    "debuff": null
+  },
+  "ground": {
+    "element": "ground",
+    "damage": 10,
+    "projectileSpeed": 15,
+    "projectileDistance": 10,
+    "projectiles": 1,
+    "knockBack": 0,
+    "fireCooldown": 0.75,
+    "clipSize": 10,
+    "debuff": null
+  },
+  "electric": {
+    "element": "electric",
+    "damage": 10,
+    "projectileSpeed": 15,
+    "projectileDistance": 10,
+    "projectiles": 1,
+    "knockBack": 0,
+    "fireCooldown": 0.75,
+    "clipSize": 10,
+    "debuff": null
+  }
+}
